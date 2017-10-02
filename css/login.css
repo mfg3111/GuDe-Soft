@@ -1,0 +1,189 @@
+body{
+	background-color: #78c0ea;
+	/*min-height: 700px;*/
+}
+
+#input-area{
+	/*position: absolute;*/
+	top: 5%;
+	width: 100%;
+}
+.container {
+	width: 1280px;
+	/*height: 838px;*/
+	margin: auto;
+	/*background-image: url(../images/pingtai-img.png);*/
+	position: relative;
+}
+
+.content {
+	width: 536px;
+	height: 384px;
+
+	margin: auto;
+	position: relative;
+	top: 50px;
+	background-color: rgba(255, 255, 255, 0.49);
+	border-radius: 8px;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.44);
+	/*border:1px solid black;*/
+	text-align: center;
+	font-family: 微软雅黑;
+	position:relative;bottom:50px;
+}
+
+.content input[type='text'] {
+	width: 368px;
+	height: 64px;
+	border-radius: 8px;
+	color: #000000;
+	padding-left: 50px;
+	font-size: 18px;
+	border: 2px solid #87c0dd;
+	margin: 25px 0;
+	font-weight: 300;
+	line-height: 64px;
+	position: relative;
+}
+
+
+.content input[type='password'] {
+	width: 368px;
+	height: 64px;
+	color: #000000;
+	padding-left: 50px;
+	border-radius: 8px;
+	
+	padding-left: 50px;
+	font-size: 18px;
+	border: 2px solid #87c0dd;
+	line-height: 64px;
+}
+.user-icon{
+	position: absolute;
+	top: 46px;
+	left: 72px;
+}
+.pwd-icon{
+	position: absolute;
+	top: 139px;
+	left: 72px;
+}
+.content select {
+	width: 204px;
+	height: 44px;
+	border-radius: 8px;
+	border: 2px solid #87c0dd;
+	float: left;
+	font-weight: 600;
+	font-family: 微软雅黑;
+	padding: 10px;
+	margin-right: 20px;
+}
+
+.content p {
+	font-family: 微软雅黑;
+}
+
+.content input[type='checkbox'] {
+	width: 20px;
+	height: 20px;
+	border-radius: 8px;
+	float: left;
+	margin-top: 16px;
+	font-weight: 300;
+}
+
+.content input[type='button'] {
+	width: 422px;
+	height: 64px;
+	background-color: #58A0DE;
+	text-align: center;
+	border-radius: 8px;
+	font-size: 28px;
+	font-weight: 300;
+	font-family: 微软雅黑;
+	color: white;
+	border: 1px solid #58A0DE;
+	padding: 6px 12px;
+}
+
+.footer {
+	/*width:536px;*/
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	margin: 0 auto;
+	/*margin-top: 230px;*/
+	text-align: center;
+	bottom: 30px;
+	font-size: 18px;
+	font-family: 微软雅黑;
+	font-weight: 600;
+	color: #23649E;
+}
+.footer img{
+	margin: 0 5px;
+	position: relative;
+	top: 4px;
+}
+.guanyu{
+	position: absolute;
+	bottom: 20px;
+
+	right: 2%;
+	font-size: 18px;
+	font-family: 微软雅黑;
+	font-weight: 600;
+	color: #23649E;
+	vertical-align: middle;
+}
+.guanyu img{
+	width: 20px;
+	position: absolute;
+	bottom: 1px;
+
+	right: 124px;
+}
+.banben{
+	margin-left: 20px;
+}
+#en-title{
+	color:#3178B6;font-family:微软雅黑;font-weight:300;position:relative;top:20px;left:55px;
+}
+#cn-title{
+	color:#3178B6;font-family:微软雅黑;text-align:center;position:relative;top:35px;font-size:45px;
+}
+@media only screen and (max-height: 650px) {
+	/*.footer{
+		display: none;
+	}
+	.guanyu{
+		display: none;
+	}*/
+	#footer{
+		bottom: 15px;
+	}
+	.guanyu{
+		bottom: 15px;
+	}
+		#input-area *{
+		top: 0;
+	}
+	#cn-title{
+		top: 0;
+	}
+	#en-title{
+		top: -20px;
+	}
+
+	#input-area .pwd-icon{
+		top: 139px;
+	}
+	#input-area .user-icon{
+		top: 46px;
+	}
+	/*#input-area *{
+		transform: scale(0.95);
+	}*/
+}

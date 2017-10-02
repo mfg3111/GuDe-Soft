@@ -1,0 +1,316 @@
+body {
+	background-color: #e9e8e8;
+	font-family: "微软雅黑";
+	max-width: 1600px;
+}
+
+a,
+a:hover,
+a:link,
+a:visited {
+	color: inherit;
+	text-decoration: none;
+}
+/*.fixed-table-container thead th{
+	height: 30px;
+}
+.fixed-table-container tbody td .th-inner, .fixed-table-container thead th .th-inner{
+	padding: 6px!important;
+}
+.bootstrap-table .table, .bootstrap-table .table>tbody>tr>td, .bootstrap-table .table>tbody>tr>th, .bootstrap-table .table>tfoot>tr>td, .bootstrap-table .table>tfoot>tr>th, .bootstrap-table .table>thead>tr>td{
+	padding: 6px!important;
+}*/
+.more {
+	position: absolute;
+	bottom: 5px;
+	right: 15px;
+	color: #568ac3;
+	font-weight: bold;
+}
+
+.report img {
+	width: 100%;
+	height: 100%;
+}
+
+
+/*#myCarousel {
+	width: 100%;
+	height: 200px;
+}*/
+
+#myCarousel img {
+	/*width: 100%;*/
+	height: 210px;
+	max-height: 300px;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+#myCarousel .carousel-indicators {
+	bottom: -8px;
+}
+
+.news {
+	width: 25%;
+}
+
+.report {
+	width: 44%;
+}
+
+.baner {
+	width: 25%;
+}
+
+.task {
+	width: 20%;
+}
+
+.todo {
+	width: 54%;
+}
+
+.form {
+	width: 20%;
+	/*font-size: 16px;*/
+}
+
+.task ul {
+	padding: 0;
+}
+
+.task .card-content li {
+	list-style: none;
+	background-color: #f3f3f3;
+	margin-top: 3px;
+	padding: 6px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: relative;
+}
+
+.task .card-content li img {
+	position: absolute;
+	right: 8px;
+	top: 8px;
+	width: 40px;
+}
+
+
+.todo .card-content img {
+	width: 100%;
+}
+
+.card-title {
+	border-bottom: 3px solid #518bbe;
+	edf2f8
+}
+
+/*.task .card-title {
+	border-bottom: 2px solid #edf2f8;
+}
+
+.form .card-title {
+	border-bottom: 2px solid #edf2f8;
+}*/
+
+.form ul ,.news ul{
+	padding: 0;
+}
+
+.form li,.news li,.task li{
+	list-style: none;
+	padding: 6px;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: relative;
+	color:red;m , 
+}
+.news-contitle{
+	/*width: 80%;*/
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.news-date{
+	position: absolute;
+	right: 0;
+	bottom: 4px;
+	transform: scale(0.8);
+	color: #b7b7b7;
+}
+.form li:nth-child(even) {
+	background-color: #F9F9F9;
+}
+.form li img {
+	/*float: left;*/
+	margin-right: 8px;
+}
+
+#search-area {
+	width: 260px;
+	margin: 15px;
+}
+
+#form-area {
+	margin: 15px;
+}
+
+.table-list {
+	/*width: 100%;*/
+	background-color: #dfedf6;
+	padding: 10px;
+	font-size: 16px;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.table-content {
+	background-color: #FFFFFF;
+	padding: 30px;
+}
+
+.table-item {
+	width: 150px;
+	height: 100px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.content-title {
+	text-overflow: ellipsis;
+	line-clamp: 2;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	display: -webkit-box;
+	min-height: 34px;
+	overflow: hidden;
+}
+
+.table-list img {
+	width: 16px;
+	position: relative;
+	top: -1px;
+	margin-right: 10px;
+}
+
+.fixed-table-container {
+	border-top: 0;
+}
+
+table th,
+table tr {
+	text-align: center;
+}
+
+table thead {
+	color: #6294c3;
+}
+
+.news .card-content {
+	font-size: 15px;
+}
+.news .card-content span{
+	padding-left:105px; 
+}
+
+.card {
+	height: 300px;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	padding: 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 1% 1%;
+	position: relative;
+	z-index: 100;
+	min-height: 200px;
+}
+
+.card-title {
+	/*margin-top: 15px;*/
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.card-content {
+	height: 75%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding-top: 5px;
+}
+
+@media only screen and (max-width: 1266px) {
+	.task .card-content {
+		font-size: 12px;
+	}
+	.news .card-content {
+		font-size: 12px;
+	}
+	.card{
+		margin: 0.5% 0.5%;
+	}
+	.card-content {
+		font-size: 12px;
+	}
+	.card-title {
+		font-size: 15px;
+		padding-bottom: 5px;
+	}
+	.task .card-content li {
+		padding: 6px;
+	}
+	.task .card-content li img{
+		width: 36px;
+	}
+	#search-area {
+		margin: 10px;
+	}
+	#form-area {
+		margin: 10px;
+	}
+	.table-list {
+		padding: 6px;
+		font-size: 14px;
+	}
+	.table-list img {
+		width: 14px;
+		margin-right: 8px;
+	}
+	.tab-content {
+		padding: 15px;
+	}
+	.table-item {
+		width: 130px;
+		height: 90px;
+	}
+}
+
+
+/*@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+	.task .card-content{
+		font-size: 15px;
+	}
+	.card{
+		height: 300px;
+		padding: 10px;
+	}
+	.card-content{
+		height: 230px;
+	}
+	#myCarousel img{
+		height: 230px;
+	}
+	.card-title{
+		font-size: 16px;
+		padding-bottom: 5px;
+	}
+	.task .card-content li{
+		padding: 8px;
+	}
+}*/
